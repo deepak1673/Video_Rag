@@ -1,0 +1,31 @@
+# CPU-only torch wheels: install with
+#   pip install -r backend/requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.1
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg[binary]==3.2.3
+celery==5.4.0
+redis==5.2.1
+qdrant-client==1.12.1
+httpx==0.28.1
+structlog==24.4.0
+
+faster-whisper==1.1.0
+torch==2.5.1
+sentence-transformers==3.3.1
+transformers==4.46.3
+numpy==1.26.4
+Pillow==11.0.0
+opencv-python-headless==4.10.0.84
+scenedetect==0.6.4
+pytesseract==0.3.13
+
+pytest==8.3.4
+pytest-asyncio==0.25.0
+ruff==0.8.4

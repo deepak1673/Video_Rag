@@ -1,0 +1,3 @@
+{"question": "What does the speaker say the main benefit of the product is?", "reference": "Replace with a short, manually verified answer taken from the video.", "answerable": true, "video_ids": ["<video-uuid>"], "tags": ["speech"]}
+{"question": "What text is shown on the title slide?", "reference": "Replace with the exact on-screen text.", "answerable": true, "video_ids": ["<video-uuid>"], "tags": ["slide"]}
+{"question": "What is the price of the premium plan?", "reference": "", "answerable": false, "video_ids": ["<video-uuid>"], "tags": ["unanswerable"]}

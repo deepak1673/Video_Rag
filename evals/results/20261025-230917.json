@@ -1,0 +1,618 @@
+{
+  "summary": {
+    "date": "2026-10-25",
+    "dataset": "evals\\dataset.jsonl",
+    "questions": 28,
+    "answerable": 22,
+    "unanswerable": 6,
+    "latency_ms_p50": 1042,
+    "latency_ms_p95": 1408,
+    "false_abstentions": 0,
+    "abstention_accuracy": 0.333
+  },
+  "samples": [
+    {
+      "question": "Where does photosynthesis take place in the plant?",
+      "reference": "It takes place inside the chloroplasts, which are found in the leaf cells.",
+      "answerable": true,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "Photosynthesis takes place inside the chloroplasts, which are found in the leaf cells. [E4] The light reactions occur in the thylakoid membranes, while the Calvin cycle happens in the stroma. [E4]",
+      "abstained": false,
+      "contexts": [
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen",
+        "Photosynthesis is the process plants used to turn sunlight into chemical energy. It takes place inside the chloroplasts, which are found in the leaf cells.",
+        "Here the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. To summarize, plants need sunlight, water, and carbon dioxide.",
+        "Stage 2: Calvin Cycle Location: stroma CO2 becomes glucose"
+      ],
+      "citations": 1,
+      "latency_ms": 929
+    },
+    {
+      "question": "What happens during the light reactions?",
+      "reference": "Sunlight is absorbed by chlorophyll and water is split to release oxygen; they happen in the thylakoid membranes.",
+      "answerable": true,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "During the light reactions, which occur in the thylakoid membranes, sunlight is absorbed by chlorophyll and water is split to release oxygen. [E3] [E1]",
+      "abstained": false,
+      "contexts": [
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released",
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "The first stage is called the light reactions. They happen in the thylacoid membranes.",
+        "Here the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. To summarize, plants need sunlight, water, and carbon dioxide.",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen"
+      ],
+      "citations": 2,
+      "latency_ms": 993
+    },
+    {
+      "question": "Where does the Calvin cycle happen?",
+      "reference": "The Calvin cycle happens in the stroma.",
+      "answerable": true,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The Calvin cycle happens in the stroma. [E4] This location is also explicitly stated in the on-screen text for Stage 2. [E1]",
+      "abstained": false,
+      "contexts": [
+        "Stage 2: Calvin Cycle Location: stroma CO2 becomes glucose",
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released",
+        "The second stage is the Calvin cycle. It happens in the stroma.",
+        "Here the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. To summarize, plants need sunlight, water, and carbon dioxide.",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen"
+      ],
+      "citations": 2,
+      "latency_ms": 1105
+    },
+    {
+      "question": "What does the plant use to build glucose in the Calvin cycle?",
+      "reference": "It uses carbon dioxide and the energy from the light reactions to build glucose.",
+      "answerable": true,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "In the Calvin cycle, the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. [E5] This process takes place in the stroma. [E6]",
+      "abstained": false,
+      "contexts": [
+        "Stage 2: Calvin Cycle Location: stroma CO2 becomes glucose",
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen",
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released",
+        "Here the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. To summarize, plants need sunlight, water, and carbon dioxide.",
+        "The second stage is the Calvin cycle. It happens in the stroma."
+      ],
+      "citations": 2,
+      "latency_ms": 962
+    },
+    {
+      "question": "What do plants need and what do they produce?",
+      "reference": "Plants need sunlight, water and carbon dioxide, and they produce glucose and oxygen.",
+      "answerable": true,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "Plants need sunlight, water, and carbon dioxide. [E1] They produce glucose and oxygen. [E1] This oxygen is the air that animals breathe. [E1]",
+      "abstained": false,
+      "contexts": [
+        "To summarize, plants need sunlight, water, and carbon dioxide. They produce glucose and oxygen.",
+        "Photosynthesis is the process plants used to turn sunlight into chemical energy. It takes place inside the chloroplasts, which are found in the leaf cells.",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen",
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released"
+      ],
+      "citations": 1,
+      "latency_ms": 1140
+    },
+    {
+      "question": "What is an infobox on Wikipedia?",
+      "reference": "A box on the right-hand side of an article that gives basic information about the subject, such as where a person was born, died and their occupation.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "An infobox is a structured box of information that appears on a Wikipedia article page. [E5] There are various types of infoboxes, such as the \"InfoBoxRider\" mentioned in the video. [E6] These boxes are generated from specific source data, like an \"info box writer,\" which provides the actual content displayed in the box. [E6]",
+      "abstained": false,
+      "contexts": [
+        "review. Donate to Wikipedia Wikimedia Shop Content that violates any copyrights will be deleted. Encyclopedic content must be verifiable. Work submitted to Wikipedia can be edited, used, and redistributed—by anyone Interaction —subject fo certain terms and conditions. Help About Wikipedia",
+        "Us Wikipedia (en Talk Sandbox Preferences Beta Watchlist Log out User page Talk Read Edit Viewhistory |Search WIKIPEDIA User:TheFreeCollege/sandbox Encyclopedia From Wikipedia, the free encyclopedia Main page Contents John Abraham Featured content Baltimore, Maryland Current events Random article Seattle, Washington",
+        "submitted to Wikipedia can be edited, used, and redistributed—by anyone Main page —subject to certain terms and conditions. Contents Featured content BI Advanced Special characters Help Cite Current events Random article Donate to Wikipedia Wikimedia Shop Interaction Help About Wikipedia",
+        "(en TheFreeCollege Talk Sandbox Preferences Beta Watchlist Contibutions Log out User page Talk Create WIKIPEDIA Creating User:TheFreeCollege/sandbox Encyclopedia Content that violates any copyrights will be deleted. Encyclopedic content must be verifiable. Work submitted to Wikipedia can be edited, used, and",
+        "And my recommendation is that people who are new to Wikipedia or watching this video should",
+        "We saw that it said InfoBoxRider, but there are varieties of InfoBoxes, and we're going to go ahead and open another tab."
+      ],
+      "citations": 2,
+      "latency_ms": 1268
+    },
+    {
+      "question": "How can you see the source code of an infobox?",
+      "reference": "Click the view source button at the top right of the article page and scroll down to find the infobox template.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "To see the source code of an infobox, you can search for the specific template name, such as \"InfoBoxPerson,\" on Google. [E3] This will take you to the template page where the source code is located. [E3] You can also find the source of the information displayed in the infobox by looking at the template, such as \"InfoBoxRider.\" [E2]",
+      "abstained": false,
+      "contexts": [
+        "User contributions notable works Logs svyle Upload file Special pages salary net_worth Net worth should be supported with citation from reliable source Page information height Languages in vatle predecessor successor Insert Sign your posts on talk pages: Cite your source:",
+        "information is what this is actually the source of this info box all right so we We saw that it said InfoBoxRider, but there are varieties of InfoBoxes, and we're going",
+        "And if you remember, we went to Google, we typed InfoBoxPerson as the keyword, and we came to this template page, template InfoBoxPerson.",
+        "And just to give you an idea, we have InfoBoxPerson, which is a very basic InfoBox, and we'll scroll down and we'll notice that where it says blank template with all parameters just",
+        "We're going to go to paste. And now all this info box data is above that information.",
+        "ten Google infobox infobox person infobox personnalité militaire Feeling Lucky infobox personnage infobox military person Press Enter to search Ler"
+      ],
+      "citations": 2,
+      "latency_ms": 1408
+    },
+    {
+      "question": "Which infobox template does the presenter use as a basic example?",
+      "reference": "Infobox person, which is a very basic infobox.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The presenter uses the InfoBoxPerson template as a very basic example. [E2] They also reference the InfoBoxRider template when discussing the various types of InfoBoxes. [E3]",
+      "abstained": false,
+      "contexts": [
+        "Brown University in 1984. Insert posts on talk pages: Cite your source: Edit summary (Briefy describe the changes you have made) This is minor Watch this page By clicking the \"Save page” button, you agree to the Terms of Use",
+        "And just to give you an idea, we have InfoBoxPerson, which is a very basic InfoBox, and we'll scroll down and we'll notice that where it says blank template with all parameters just",
+        "We saw that it said InfoBoxRider, but there are varieties of InfoBoxes, and we're going to go ahead and open another tab.",
+        "we came to this template page, template InfoBoxPerson.",
+        "it goes to this, you know, random page. So obviously you have to know what you're talking about. And that's why I decided to start the first video with an info box because it",
+        "Wikipedia Wikimedia Shop Interaction Help “This page was last on 25 August 2014 at 17:33. About Wikipedia ‘Community portal avaible under the Creative Commons License; addtional terms may apply. By using this ste, you agree to the Terms of Use"
+      ],
+      "citations": 2,
+      "latency_ms": 1401
+    },
+    {
+      "question": "What is the Wikipedia sandbox for?",
+      "reference": "It is a personal workspace where you can make and save changes without affecting the main Wikipedia pages.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The Wikipedia sandbox serves as a testing spot and personal workspace where users can modify and save content without affecting the main Wikipedia pages. [E1] [E6] It allows users to make mistakes and return to work on articles later without any impact on the encyclopedia. [E6]",
+      "abstained": false,
+      "contexts": [
+        "User ci Wikipedia (en [Search al User page Talk Create WIKIPEDIA Creating User:TheFreeCollege/sandbox ‘The Free Encyclopedia This is the user sandbox of TheFreeCollege. user sandbox is subpage of the user's user page. It serves as testing spot Main page and",
+        "View source fr William St en) tf TheFreeCollege Talk Sandbox Preferences Beta Watchlist Contributions Log out [Search Talk Read View source View history WIKIPEDIA View source for William Shakespeare ‘TheFree Encyclopedia Shakespeare Main page ‘You do not have permission to",
+        "Us Wikipedia (en Talk Sandbox Preferences Beta Watchlist Log out User page Talk Read Edit Viewhistory |Search WIKIPEDIA User:TheFreeCollege/sandbox Encyclopedia From Wikipedia, the free encyclopedia Main page Contents John Abraham Featured content Baltimore, Maryland Current events Random article Seattle, Washington",
+        "Creating User ci User Wikipedia fen) TheFreeCollege Talk Sandbox Preferences Beta Watchlist Log out [Search User page Talk Create WIKIPEDIA Creating User:TheFreeCollege/sandbox Encyclopedia Content that violates any copyrights will be deleted. Encyclopedic content must be verifiable. Work submitted to Wikipedia",
+        "hand corner, the free college, talk, sandbox preferences and so forth. We're going to click the sandbox button.",
+        "We scroll down and we'll notice that there's user sandbox edit below this line."
+      ],
+      "citations": 2,
+      "latency_ms": 1461
+    },
+    {
+      "question": "How do you turn a place name like Baltimore, Maryland into a link?",
+      "reference": "Put two square brackets on both sides of the text, then show preview and it turns blue as a link.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "To turn a place name like Baltimore, Maryland into a link, you place two brackets on both sides of the text. [E3] After adding the brackets, you can click \"show preview\" to verify that the text turns blue, indicating it is now a link. [E2]",
+      "abstained": false,
+      "contexts": [
+        "history Baltimore WIKIPEDIA ‘TheFree Encyclopedia From Wikipedia, the free encyclopedia Coordinates: 76°37 (Redirected trom Baltimore, Maryland) Main page Contents This article is about the city in Maryland. For the surrounding county, see Baltimore County, Maryland. For other uses, see Baltimore",
+        "when this is actually finalized that will be a link to Baltimore, Maryland. So part of working with Wikipedia is knowing little tricks like that in order to",
+        "says his name and where he was born. Now to make it more specific and better for readers, what we're going to do is we're going to revisit this Baltimore Maryland area and we're",
+        "Washington we put the brackets over there just like that we can scroll down and and click show preview.",
+        "and we'll say his birthday, let's say his birthplace was Baltimore, Maryland. Now we're going to scroll down with the other scroll bar and we're going to click show preview.",
+        "Bom Baltimore, Help Died Washington About Wikipedia ‘Community portal Advanced Cite Recent changes BI Special characters Help Contact page Tools What links here date and (death date chen birth date) death_place [[Seattle, User contributions death_cause Logs body_discovered Upload fle resting_place"
+      ],
+      "citations": 2,
+      "latency_ms": 1278
+    },
+    {
+      "question": "Why does the presenter warn about typing a term like 'doc'?",
+      "reference": "A vague term links to a random unrelated page, so you must use precise terms that point to valid pages.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The presenter warns about typing a term like \"doc\" because many people do not really know how to use Wikipedia. [E1] This lack of knowledge can lead to confusion, such as incorrectly identifying a person as a medical doctor when they are not. [E1]",
+      "abstained": false,
+      "contexts": [
+        "grammar is important because if you were to for example type in he's a doc and some you'd be surprised how many people don't really know how to use Wikipedia, but you",
+        "And we're going to go back to InfoBoxPerson. And if you remember, we went to Google, we typed InfoBoxPerson as the keyword, and",
+        "right hand side is an example where it says honorific prefix name and so forth this is an example of what it'll look like when it's complete except this",
+        "Wikipedia (en User signature Special pages Page information Languages module modules module? modules website footnotes John Abraham was Medical Doctor who attended college. Education John Abraham attended Brown University in 1984. Insert posts on talk pages: Cite your source: Edit",
+        "Us Wikipedia (en Talk Sandbox Preferences Beta Watchlist Log out User page Talk Read Edit Viewhistory |Search WIKIPEDIA User:TheFreeCollege/sandbox Encyclopedia From Wikipedia, the free encyclopedia Main page Contents John Abraham Featured content Baltimore, Maryland Current events Random article Seattle, Washington",
+        "Doctor of Medic ci en) oO Doctor TheFreeCollege Talk Sandbox Preferences Beta Watchlist Contributions Log out ‘Search Atticle Talk Read history Doctor of Medicine WIKIPEDIA Encyclopedia From Wikipedia, the free encyclopedia (Redirected trom Medical Doctor) Main page Contents Featured content"
+      ],
+      "citations": 1,
+      "latency_ms": 962
+    },
+    {
+      "question": "What does the presenter recommend new users do?",
+      "reference": "Find articles without infoboxes and try to fill them out to get better acquainted with the data.",
+      "answerable": true,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The presenter recommends that people who are new to Wikipedia or watching the video should be more specific in their data. [E3]",
+      "abstained": false,
+      "contexts": [
+        "about. And that's why I decided to start the first video with an info box because it helps you to kind of organize your information. You can take information from an article page",
+        "We're going to visit Google.com. And just to give you an idea, we have InfoBoxPerson, which is a very basic InfoBox, and we'll scroll",
+        "It also encourages users to be more specific in their data. And my recommendation is that people who are new to Wikipedia or watching this video should",
+        "Us Wikipedia (en Talk Sandbox Preferences Beta Watchlist Log out User page Talk Read Edit Viewhistory |Search WIKIPEDIA User:TheFreeCollege/sandbox Encyclopedia From Wikipedia, the free encyclopedia Main page Contents John Abraham Featured content Baltimore, Maryland Current events Random article Seattle, Washington"
+      ],
+      "citations": 1,
+      "latency_ms": 988
+    },
+    {
+      "question": "What is OpenRefine used for?",
+      "reference": "It is open source software for working with spreadsheets and for uploading data from spreadsheets onto Wikidata.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "OpenRefine is a useful open source software used to work with different spreadsheets. [E5] It also serves as a tool for uploading data from spreadsheets directly onto Wikidata. [E5] Additionally, it can be used to reconcile data and add it onto Wikidata. [E5]\n\n[E5]",
+      "abstained": false,
+      "contexts": [
+        "openrefine.org OpenRefine Af Welcome! king ir Ov Home Community Documentation Download Google News Initiative Contact Us Blog Introduction to OpenRefine Data Refine 2.0",
+        "OpenRefine Ethnicity Google Sheets HE Wikidata Propbrowse openrefine github.com SO 127.00.1:3333 Apps Kazbegi to Mail Carrol wen Create Project Create project by importing data. What kinds of data files can import? TSV, CSV, *SV, Excel (xis and JSON, XML, RDF",
+        "You can then open OpenRefine using Google Chrome or Internet Explorer. Once OpenRefine is opened, a spreadsheet can then be uploaded.",
+        "rather than Irish Americans and OpenRefine is doing this by giving us different wiki data suggestions. If I click on the single tick it will match this one item to this cell. However,",
+        "OpenRefine is a useful open source software which can be used to work with different spreadsheets. It is also used as a tool for uploading data from spreadsheets directly onto Wiki data.",
+        "Then on OpenRefined you are then able to see all of the columns that you have used on your original database."
+      ],
+      "citations": 1,
+      "latency_ms": 1229
+    },
+    {
+      "question": "What data source does the presenter load in the example?",
+      "reference": "Data from Google Sheets, taken from the Scottish witchcraft database, looking at the ethnicity of the accused witches.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The presenter loads data into OpenRefined, where they are given a preview of the OpenRefined data. [E1]",
+      "abstained": false,
+      "contexts": [
+        "From there I am then given a preview of the OpenRefined data and I am able to then give the project a name."
+      ],
+      "citations": 1,
+      "latency_ms": 971
+    },
+    {
+      "question": "How do you remove an unneeded column in OpenRefine?",
+      "reference": "Click the arrow at the top of the column, choose edit column and then remove this column.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "To remove an unneeded column in OpenRefine, you click on the column and then select the option to remove this column. [E6] This action will remove the column from the spreadsheet. [E6]",
+      "abstained": false,
+      "contexts": [
+        "Example Openfefine Survey Database, Survey of Sc. Ethnicity Google Sheets Wikidata Propbrowse 127.0.0.1:3333/project?project 146561866146 Apps Kazbegi Metis to Mail Emma Carrol, Remove column FirstName Undo OpenRefine Example Open Help Undo Redo 2/2 17 rows Extensions: Wikidata Show as: rows records",
+        "openrefine.org OpenRefine Af Welcome! king ir Ov Home Community Documentation Download Google News Initiative Contact Us Blog Introduction to OpenRefine Data Refine 2.0",
+        "Example Database, Survey of Sc: Google Sheets Wikidats Propbrowse SO 127.00.1:33: 33 146561866146 Apps Kazbegi to OpenRefine Example Open Export Help Facet/ Filter Undo Redo 17 rows Extensions: Wikidata Refresh Reset All Remove All Show as: rows records Show: 10",
+        "complete Example Ope ‘openvefine Survey Database, Survey of Sc Ethnicity Google Sheets Wikidata Propbrowse 127.0.0.1:3333/project?project 146561866146 Apps Kazbegi to Mail Emma Carrol, Reconcile cells in column Ethnic_origin to type OpenRefine Cancel Open Export Help Undo Redo 17 rows Extensions: Wikidata",
+        "Then on OpenRefined you are then able to see all of the columns that you have used on your original database.",
+        "column and then clicking on remove this column. This will then remove this column from the spreadsheet."
+      ],
+      "citations": 1,
+      "latency_ms": 1370
+    },
+    {
+      "question": "How many rows were matched when reconciling the ethnic origin column?",
+      "reference": "Of the 17 rows, 15 matched and 2 did not match.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "When reconciling the ethnic origin column, there were 15 matched rows out of a total of 17 rows. [E3] This reconciliation process resulted in a 100% match rate for the dataset. [E4]",
+      "abstained": false,
+      "contexts": [
+        "group matched 17 Facet by choice counts Veclerick (043402738) (2692312) group (042402740) 75.00 101.00 Gaels (2692312) group Sort by: name count ‘Angus Forester (243389907) matched 17 Gaels (2692312) Facet by choice counts ethnic group Elspett Moiness (043402741) (2692312) references “ethnic",
+        "group matched 17 exclude Facet by choice counts Veclerick (043402738) (2692312) group (043402740) 75.00 101.00 (2692312) “ethnic group (P172) FullNames Sort by: name count ‘Angus Forrester (243389907) matched 17 ethnic group Gaels (0692312) Facet by choice counts Elspett Moiness ethnic",
+        "been correctly reconciled. As you can see from the 17 rows within this spreadsheet, there are 15 matched and 2 not",
+        "Once all of your points have been matched, we then have a fill dataset for ethnic origin, and as a result there is a 100% match rate with a fill green bar.",
+        "I'm using is from the Scottish witchcraft database, where I will be looking at the ethnicity of different witches recorded in the database.",
+        "your own. So for ethnicity, ethnic group seems like a better Q number to reconcile against. On there, open refine can then refine and conceal all of the data that you need."
+      ],
+      "citations": 2,
+      "latency_ms": 1269
+    },
+    {
+      "question": "What does the double tick do when reconciling?",
+      "reference": "It matches all cells with the same value to the same Wikidata item.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "When reconciling, clicking on the double tick will match all of the cells that contain the same information. [E1]",
+      "abstained": false,
+      "contexts": [
+        "If I click on the double tick, it will then match all of the cells with the same information"
+      ],
+      "citations": 1,
+      "latency_ms": 858
+    },
+    {
+      "question": "Which Wikidata item are the witch names reconciled against?",
+      "reference": "Q5, which is for humans.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The witch names are reconciled against Q5, which is the Wikidata item for humans. [E5]",
+      "abstained": false,
+      "contexts": [
+        "Example OpenRefine Database, Survey ofS Ethnicity Google Sheets Wikidata Propbrowse Notsecure witches.shca.ed.ac.uk/index.cfm?f 60 Apps Kazbegi Mestia to Ushguli Survey of Scottish Witchcraft Database Survey of Scottish Witchcraft ‘Scottish History. School of History and Classics, The University of Edinburgh, Scotland Jon",
+        "Example OpenRefine Survey Database, Survey of Ethnicity Google Sheets Propbrowse Notsecure witches.shca.ed.ac.uk/index.cfm?fuseaction=home.accusedrecord&isearch_string =lastname&accusedref=A/EGD/158 Apps Kazbegi Mestis to Carrol Personal Details First Name Jon Last Name Neill Sex Male Age 36 (estimated from career) Place of residence Tweedmouth settlement Place of",
+        "Google Sheets Wikidata openrefine github.com ll Google Apps Kazbegi to Ushgul OpenRefine Example remain Facet/ Filter Preview Refresh All Remove All This tab shows the fist (out of 17) that will be made once you upload the changes to Wikidata.",
+        "openrefine github.com all Qa Search Google eee Apps Kazbegi to Ushgul OpenRefine Example Help Facet! Filter Preview [Refresh Remove All This tab shows the first edits (out of 17) that wil be made once you upload the changes to Wikidata.",
+        "And so, the next step is to reconcile the name of the witches and a similar way to what we've done for the ethnic data.",
+        "is the name of the accused witch and the ethnic origin. I also then have the reference which is added at the end, which will be a reference for each"
+      ],
+      "citations": 1,
+      "latency_ms": 913
+    },
+    {
+      "question": "How do you build the schema for uploading to Wikidata?",
+      "reference": "Use the Wikidata extension and click edit Wikidata schema, then add an item and statements by dragging reconciled columns in.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "To build a schema for uploading to Wikidata, you use the Wikidata extension and click on \"edit Wikidata schema.\" [E5] This process allows you to specify how your tabular data will be transformed into Wikidata edits. [E1]",
+      "abstained": false,
+      "contexts": [
+        "Survey Database, Survey Ethnicity Google Sheets Wikidata Propbrowse al Google Apps Kazbegi to Ushgul OpenRefine Example Export ‘Schema Refresh Reset All Remove All The Wikidata schema below how your tabular data willbe transformed into Wikidata edits. You can drag and",
+        "Survey Database, Survey Google Sheets Propbrowse 34a Search Google Apps Kazbegi to Ushgul OpenRefine Example ‘Schema Facet! Filter Reset All Remove All ‘The Wikidata schema below specifies how your tabular data will be transformed into Wikidata edits. You can drag",
+        "OpenRefine Ethnicity Google Sheets HE Wikidata Propbrowse openrefine github.com SO 127.00.1:3333 Apps Kazbegi to Mail Carrol wen Create Project Create project by importing data. What kinds of data files can import? TSV, CSV, *SV, Excel (xis and JSON, XML, RDF",
+        "data directly into Wiki Data. In this example I'm going to upload the data directly into Wiki Data and it already tells me that there are no issues with my edits and I'm ready to upload.",
+        "refine onto wiki data is to build a schema which can then be uploaded onto wiki data. This is used using the wiki data extension and clicking on edit wiki data schema.",
+        "with each one of the points and are confident that the data that you're going to upload into wiki data is correct. You're then able to export the data. This can be done with a read either"
+      ],
+      "citations": 2,
+      "latency_ms": 1183
+    },
+    {
+      "question": "Why does the presenter use a different reference for each statement?",
+      "reference": "Because each point uploaded to Wikidata has its own reference taken from a column in the spreadsheet.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The presenter uses a different reference for each statement because each point being added to the wiki data has a distinct reference. [E1] This approach allows for individual URL references to be typed in for specific items, rather than applying a single reference to all statements. [E2]",
+      "abstained": false,
+      "contexts": [
+        "same reference or else in this instance I'm going to put in one of the columns taken from the spreadsheet directly into this box by dragging it. And this is because each one",
+        "or each can have a singular reference. This can be done by taping in URL reference. And either you can put in one URL directly into this box if every single statement has the",
+        "Just then to drag and tell us the ethnic group for each accuse which is mentioned in the spreadsheet. The next step is then to add a reference."
+      ],
+      "citations": 2,
+      "latency_ms": 1001
+    },
+    {
+      "question": "What are the two ways to export the data to Wikidata?",
+      "reference": "Upload edits directly to Wikidata, which is best for datasets under a thousand points, or export to QuickStatements for very large datasets.",
+      "answerable": true,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The two ways to export the data to Wikidata are using a read or uploading the data directly into Wikidata. [E5] [E6]",
+      "abstained": false,
+      "contexts": [
+        "Survey Database, Survey Ethnicity Google Sheets Wikidata Propbrowse al Google Apps Kazbegi to Ushgul OpenRefine Example Export ‘Schema Refresh Reset All Remove All The Wikidata schema below how your tabular data willbe transformed into Wikidata edits. You can drag and",
+        "Ethnicity Google Sheets Propbrowse 34 Search Google eee? Apps Kazbegi to Ushgul OpenRefine Example Permatink Open...|| Export Help Filter All Remove This tab shows the fist (out of 17) that will be made once you upload the changes to Wikidata.",
+        "Survey Database, Survey Google Sheets Propbrowse 34a Search Google Apps Kazbegi to Ushgul OpenRefine Example ‘Schema Facet! Filter Reset All Remove All ‘The Wikidata schema below specifies how your tabular data will be transformed into Wikidata edits. You can drag",
+        "Example OpenRefine Jon Neill Wikidata Survey Database, Ethnicity-Google She: Wikidata Propbrowse Apps Kazbegi to Carrol add value farmer reference add value residence Tweedmouth reference add value ethnic group English people reference add value social classification middie class reference add value",
+        "wiki data is correct. You're then able to export the data. This can be done with a read either",
+        "data directly into Wiki Data. In this example I'm going to upload the data directly into Wiki Data and it already tells me that there are no issues with my edits and I'm ready to upload."
+      ],
+      "citations": 2,
+      "latency_ms": 1042
+    },
+    {
+      "question": "What topics does the demo video say it will talk about?",
+      "reference": "Quarterly revenue growth and the new product launch in Europe.",
+      "answerable": true,
+      "video_ids": [
+        "99a0d243-017f-4a02-99c4-44a2d01e17ba"
+      ],
+      "tags": [
+        "speech"
+      ],
+      "response": "The demo video states that it will talk about quarterly revenue growth and the new product launch in Europe. [E1]",
+      "abstained": false,
+      "contexts": [
+        "Welcome to the demo. Today we will talk about quarterly revenue growth and the new product launch in Europe."
+      ],
+      "citations": 1,
+      "latency_ms": 735
+    },
+    {
+      "question": "What is the speaker's favourite colour?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "I couldn't find enough information in the selected videos to answer that.",
+      "abstained": true,
+      "contexts": [],
+      "citations": 0,
+      "latency_ms": 138
+    },
+    {
+      "question": "How many chloroplasts are in a single leaf?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "5359ae83-7962-45f1-9fdc-0a880accec61"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "The provided evidence does not state how many chloroplasts are in a single leaf. It only mentions that chloroplasts are found in leaf cells. [E2]",
+      "abstained": false,
+      "contexts": [
+        "Photosynthesis Sunlight to chemical energy Happens in chloroplasts",
+        "It takes place inside the chloroplasts, which are found in the leaf cells. The first stage is called the light reactions.",
+        "Here the plant uses carbon dioxide and the energy from the light reactions to build glucose sugar. To summarize, plants need sunlight, water, and carbon dioxide.",
+        "Stage 1: Light Reactions Location: thylakoid membranes Water is split, oxygen released",
+        "Summary Inputs: sunlight, water, CO2 Outputs: glucose, oxygen",
+        "Stage 2: Calvin Cycle Location: stroma CO2 becomes glucose"
+      ],
+      "citations": 1,
+      "latency_ms": 867
+    },
+    {
+      "question": "What is the population of Baltimore?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "The provided evidence does not state the specific population of Baltimore. It only mentions that Baltimore is the 26th-most populous city in the United States. [E1]",
+      "abstained": false,
+      "contexts": [
+        "the city in Maryland. For the surrounding county, see Baltimore County, Maryland. For other uses, see Baltimore (disambiguation) Featured content Baltimore colloquially is the largest city in the U.S. state of Maryland and the 26th-most populous city Current events Baltimore",
+        "and we'll say his birthday, let's say his birthplace was Baltimore, Maryland. Now we're going to scroll down with the other scroll bar and we're going to click show preview.",
+        "what we're going to do is we're going to revisit this Baltimore Maryland area and we're going to put brackets, two brackets on both sides and we're going to scroll down again",
+        "when this is actually finalized that will be a link to Baltimore, Maryland. So part of working with Wikipedia is knowing little tricks like that in order to",
+        "ubmit Wikipedia (en Bom Baltimore, Help Died Washington About Wikipedia ‘Community portal Advanced Cite Recent changes BI Special characters Help Contact page Tools What links here date and (death date chen birth date) death_place [[Seattle, User contributions death_cause Logs body_discovered",
+        "ubmit Wikipedia (en Bor Baltimore, Maryland Help Seattle, Washington About Wikipedia ‘Community portal Advanced Cite Recent changes BI Special characters Help Contact page disappeared_status Tools What inks here date and (death date then birth date) [[Seattle, User contributions death_cause Logs"
+      ],
+      "citations": 1,
+      "latency_ms": 1074
+    },
+    {
+      "question": "What does the presenter say about pricing for OpenRefine's paid plan?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "8d1344d4-61b7-4c16-b395-bdea2732358c"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "The provided evidence does not contain any information regarding pricing for OpenRefine's paid plan. [E1]",
+      "abstained": false,
+      "contexts": [
+        "org es OpenRefine Af Welcome! rfu king Ov Home Community Documentation Download Google News Initiative Contact Us Blog Introduction to OpenRefine Explore Data 2.0",
+        "You can then open OpenRefine using Google Chrome or Internet Explorer. Once OpenRefine is opened, a spreadsheet can then be uploaded.",
+        "rather than Irish Americans and OpenRefine is doing this by giving us different wiki data suggestions. If I click on the single tick it will match this one item to this cell. However,",
+        "matched and OpenRefine splits these into two separate groups to make it easier to look at them. So we then know that for Irish we are wanting to go with the Irish people"
+      ],
+      "citations": 1,
+      "latency_ms": 1148
+    },
+    {
+      "question": "What was the exact revenue figure for last quarter?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "99a0d243-017f-4a02-99c4-44a2d01e17ba"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "The provided evidence does not state the exact revenue figure for last quarter. It only mentions that quarterly revenue grew by 25 percent. [E1]",
+      "abstained": false,
+      "contexts": [
+        "Quarterly Revenue Grew 25 percent",
+        "Welcome to the demo. Today we will talk about quarterly revenue growth and the new product launch in Europe."
+      ],
+      "citations": 1,
+      "latency_ms": 858
+    },
+    {
+      "question": "How do you configure OpenRefine reconciliation?",
+      "reference": "",
+      "answerable": false,
+      "video_ids": [
+        "c8b15881-c55e-46e1-818e-1432d21da5fc"
+      ],
+      "tags": [
+        "unanswerable"
+      ],
+      "response": "I couldn't find enough information in the selected videos to answer that.",
+      "abstained": true,
+      "contexts": [],
+      "citations": 0,
+      "latency_ms": 112
+    }
+  ],
+  "scores": []
+}

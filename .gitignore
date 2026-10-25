@@ -1,0 +1,56 @@
+# ---------- Markdown: publish READMEs only ----------
+*.md
+!README.md
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Python ----------
+.venv/
+.venv-eval/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# ---------- Node / frontend ----------
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# ---------- Runtime data (keep the folder skeleton only) ----------
+data/videos/*
+data/frames/*
+data/transcripts/*
+data/tmp/*
+data/models/
+!data/*/.gitkeep
+
+# Never commit media or audio, wherever it ends up
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+*.m4v
+*.wav
+
+# Local databases / vector store files
+*.sqlite
+*.sqlite3
+qdrant_storage/
+
+# ---------- Logs, editors, OS ----------
+*.log
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
